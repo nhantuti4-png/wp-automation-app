@@ -32,8 +32,11 @@ export class MemoryStore<T extends { id?: string }> {
   private dirty: boolean = false;
   private agentEndpoint: string | null = null;
   private readyPromise: Promise<void>;
+  private collectionName: string;
 
-  constructor(private collectionName: string) {
+  constructor(collectionName: string) {
+    this.collectionName = collectionName;
+
     if (collectionName === "settings") {
       this.filePath = path.join(CONFIG_DIR, "settings.json");
     } else {
