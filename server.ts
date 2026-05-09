@@ -9,7 +9,7 @@ import path from "path";
 import axios from "axios";
 import * as cheerio from "cheerio";
 import { fileURLToPath } from "url";
-import { Brand, WPSettings, ActivityLog, MediaRecord } from "./src/types";
+import { Brand, WPSettings, ActivityLog, MediaRecord } from "./src/types.ts";
 import { stores } from "./src/lib/memoryPersistence";
 import { executeWpRest, uploadWpMedia, checkWpConnection } from "./src/lib/wordpressClient";
 import { imageOptimizerWorker } from "./src/lib/imageOptimizerWorker";
