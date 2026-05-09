@@ -1,4 +1,4 @@
-import { Brand } from "../types";
+import { Brand } from "../types.ts";
 
 export interface RenderContext {
   brand: Brand;
