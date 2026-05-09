@@ -1,0 +1,17 @@
+{
+  "name": "coupon-blog-local-bridge",
+  "version": "1.0.0",
+  "description": "Local file persistence bridge for Windows (C:/Train/)",
+  "main": "local-agent.js",
+  "scripts": {
+    "start": "node local-agent.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "fs-extra": "^11.1.1",
+    "axios": "^1.6.0",
+    "playwright": "^1.40.0",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
