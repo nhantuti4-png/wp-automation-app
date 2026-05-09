@@ -7,7 +7,7 @@ import path from "path";
  * filesystem in the ./train/ directory.
  */
 
-import { bridgeApi } from "../services/localBridge";
+import { xxx } from "../services/localBridge.ts";
 
 const TRAIN_DIR = path.join(process.cwd(), "train");
 const CONFIG_DIR = path.join(TRAIN_DIR, "config");
