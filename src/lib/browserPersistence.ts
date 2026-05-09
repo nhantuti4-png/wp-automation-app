@@ -4,7 +4,7 @@
  * to ensure that user data (brands, settings, memories) survives container rebuilds.
  */
 
-import { localBridgeService } from "../services/localBridge";
+import { localBridgeService } from "../services/localBridge.ts"
 
 const PREFIX = "cb_durable_";
 
