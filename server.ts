@@ -10,12 +10,12 @@ import axios from "axios";
 import * as cheerio from "cheerio";
 import { fileURLToPath } from "url";
 import { Brand, WPSettings, ActivityLog, MediaRecord } from "./src/types.ts";
-import { stores } from "./src/lib/memoryPersistence";
-import { executeWpRest, uploadWpMedia, checkWpConnection } from "./src/lib/wordpressClient";
+import { stores } from "./src/lib/memoryPersistence.ts"
+import { executeWpRest, uploadWpMedia, checkWpConnection } from "./src/lib/wordpressClient.ts"
 import { imageOptimizerWorker } from "./src/lib/imageOptimizerWorker";
 import { CouponFetcherWorker } from "./src/lib/couponFetcherWorker";
 import { optimizerConfig } from "./src/lib/optimizerConfig";
-import { RUNTIME_CONFIG } from "./src/lib/runtimeConfig";
+import { RUNTIME_CONFIG } from "./src/lib/runtimeConfig.ts"
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
