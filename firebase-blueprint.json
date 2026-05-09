@@ -1,0 +1,110 @@
+{
+  "entities": {
+    "Brand": {
+      "title": "Brand",
+      "description": "Affiliate brand definition and offer metadata.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "official_site": { "type": "string" },
+        "deals_url": { "type": "string" },
+        "sale_url": { "type": "string" },
+        "coupon_page_url": { "type": "string" },
+        "niche": { "type": "string" },
+        "priority": { "type": "string", "enum": ["high", "medium", "low"] },
+        "status": { "type": "string", "enum": ["active", "paused"] },
+        "last_checked_at": { "type": "string" },
+        "latest_offer_summary": { "type": "string" },
+        "latest_offer_url": { "type": "string" },
+        "latest_offer_type": { "type": "string" },
+        "latest_offer_status": { "type": "string" },
+        "source_verified": { "type": "boolean" },
+        "notes": { "type": "string" },
+        "last_used_at": { "type": "string" },
+        "use_count": { "type": "number" },
+        "affiliate_url": { "type": "string" },
+        "affiliate_link_1": { "type": "string" },
+        "affiliate_link_2": { "type": "string" }
+      },
+      "required": ["id", "name", "slug"]
+    },
+    "WPSettings": {
+      "title": "WordPress Settings",
+      "description": "WordPress API configuration.",
+      "type": "object",
+      "properties": {
+        "baseUrl": { "type": "string" },
+        "username": { "type": "string" },
+        "applicationPassword": { "type": "string" },
+        "defaultCategoryId": { "type": "number" },
+        "postStatus": { "type": "string", "enum": ["draft", "publish"] },
+        "status": { "type": "string" },
+        "geminiApiKey": { "type": "string" }
+      }
+    },
+    "ActivityLog": {
+      "title": "Activity Log",
+      "description": "Log of publishing and generation activities.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "brandName": { "type": "string" },
+        "type": { "type": "string" },
+        "title": { "type": "string" },
+        "details": { "type": "string" },
+        "wpPostId": { "type": "number" },
+        "wpUrl": { "type": "string" },
+        "status": { "type": "string" },
+        "errorMessage": { "type": "string" }
+      }
+    },
+    "WorkflowMemory": {
+      "title": "Workflow Memory",
+      "description": "Semantic memory of successful automation actions.",
+      "type": "object",
+      "properties": {
+        "hostname": { "type": "string" },
+        "intent": { "type": "string" },
+        "strategies": { "type": "array" },
+        "updatedAt": { "type": "string" }
+      }
+    },
+    "AISettings": {
+      "title": "AI Agent Settings",
+      "description": "Configuration for the adaptive AI agent.",
+      "type": "object",
+      "properties": {
+        "openaiApiKey": { "type": "string" },
+        "provider": { "type": "string" },
+        "model": { "type": "string" },
+        "enableRecovery": { "type": "boolean" },
+        "trainingMode": { "type": "string" }
+      }
+    }
+  },
+  "firestore": {
+    "/brands/{brandId}": {
+      "schema": "Brand",
+      "description": "Collection of affiliate brands."
+    },
+    "/settings/config": {
+      "schema": "WPSettings",
+      "description": "Single document for WP settings."
+    },
+    "/settings/ai": {
+      "schema": "AISettings",
+      "description": "Settings for AI Training agent."
+    },
+    "/memory/{memoryId}": {
+      "schema": "WorkflowMemory",
+      "description": "Semantic workflow memory entries."
+    },
+    "/logs/{logId}": {
+      "schema": "ActivityLog",
+      "description": "Audit logs."
+    }
+  }
+}

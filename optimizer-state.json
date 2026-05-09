@@ -1,0 +1,244 @@
+{
+  "lastProcessedMediaId": 0,
+  "currentPage": 1,
+  "cleanupPage": 1,
+  "mappings": {},
+  "stats": {
+    "processedCount": 0,
+    "spaceSavedBytes": 0,
+    "errorCount": 0,
+    "deletedCount": 0,
+    "skippedCount": 0
+  },
+  "logs": [
+    {
+      "timestamp": "2026-05-04T04:43:47.721Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:42.704Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:42.701Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:37.686Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:37.683Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:32.664Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:32.659Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:27.638Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:27.634Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:22.617Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:22.615Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:17.596Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:17.594Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:12.561Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:12.559Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:07.540Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:07.537Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:02.516Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:43:02.513Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:57.496Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:57.489Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:52.473Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:52.471Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:47.456Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:47.453Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:42.440Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:42.437Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:37.414Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:37.410Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:32.394Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:32.388Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:27.360Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:27.357Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:22.339Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:22.335Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:17.314Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:17.310Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:12.294Z",
+      "level": "error",
+      "message": "Lỗi khi xử lý nội dung trang 1: browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:12.289Z",
+      "level": "info",
+      "message": "STEP 2: XỬ LÝ NỘI DUNG (Trang 1)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:12.289Z",
+      "level": "error",
+      "message": "Lỗi xử lý logo",
+      "details": "browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1217/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:12.281Z",
+      "level": "info",
+      "message": "STEP 1: XỬ LÝ LOGO (THEME)"
+    },
+    {
+      "timestamp": "2026-05-04T04:42:12.250Z",
+      "level": "info",
+      "message": "Bắt đầu quá trình tối ưu hóa ảnh..."
+    },
+    {
+      "timestamp": "2026-05-03T09:03:09.428Z",
+      "level": "info",
+      "message": "RESET START"
+    },
+    {
+      "timestamp": "2026-05-03T09:03:09.428Z",
+      "level": "info",
+      "message": "STATE CLEARED"
+    },
+    {
+      "timestamp": "2026-05-03T09:03:09.428Z",
+      "level": "success",
+      "message": "RESET DONE"
+    }
+  ],
+  "status": "running",
+  "isLogoOptimized": true,
+  "processedPostIds": []
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Google AI Studio App</title>
+    <script>
+      // Fix for ReferenceError: __name is not defined
+      window.__name = (f) => f;
+      
+      // Global error tracker
+      window.onerror = function(message, source, lineno, colno, error) {
+        console.error("GLOBAL ERROR:", message, "at", source, ":", lineno);
+        // Show a visible error on screen if it's a white screen
+        setTimeout(() => {
+          if (!document.getElementById('root')?.hasChildNodes()) {
+            const errDiv = document.createElement('div');
+            errDiv.style.padding = '20px';
+            errDiv.style.color = 'red';
+            errDiv.style.fontFamily = 'monospace';
+            errDiv.innerHTML = '<h1>Frontend Error</h1><p>' + message + '</p><pre>' + (error?.stack || '') + '</pre>';
+            document.body.appendChild(errDiv);
+          }
+        }, 2000);
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
