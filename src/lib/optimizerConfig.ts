@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
-import { OptimizerSettings } from "../types";
-import { stores } from "./memoryPersistence";
+import { OptimizerSettings } from "../types.ts";
+import { stores } from "./memoryPersistence.ts";
 
 const DEFAULT_SETTINGS: OptimizerSettings = {
   mode: 'test',
