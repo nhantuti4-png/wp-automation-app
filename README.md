@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Local Persistence Bridge
 
-# Run and deploy your AI Studio app
+This agent allows the Cloud App to save data directly to your Windows PC at `C:/Train/`.
 
-This contains everything you need to run your app locally.
+## Setup Instructions
 
-View your app in AI Studio: https://ai.studio/apps/8a8f7b8f-5606-4c60-964f-e05b6e3972c4
+1.  **Install Node.js**: Download and install from [nodejs.org](https://nodejs.org/).
+2.  **Prepare Folder**: Create the folder `C:\Train` on your computer.
+3.  **Run the Bridge**:
+    *   Double-click `start-bridge.bat`.
+    *   The script will install dependencies and start the server on `http://localhost:3001`.
+4.  **Configure Cloud App**:
+    *   In the Cloud App Settings, set the **Local Agent URL** to `http://localhost:3001`.
+    *   Refresh the page.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Security
+- The agent only listens on `localhost`. External IPs cannot connect.
+- No data is sent to third parties; it only facilitates direct communication between your browser and your local drive.
