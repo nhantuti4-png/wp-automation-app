@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
-import { RUNTIME_CONFIG } from "./runtimeConfig";
+import { RUNTIME_CONFIG } from "./runtimeConfig.ts";
 
 // Initialize Firebase
 const firebaseConfig = {
