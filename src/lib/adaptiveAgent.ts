@@ -2,7 +2,7 @@ import { Page } from 'playwright';
 import { WorkflowMemory, SemanticIntent, TaskState, AISettings, WorkflowStep } from '../types.ts';
 import { StrategyRunner } from './strategyRunner.ts';
 import { createAIPlanner, AIPlanner } from './aiPlanners.ts';
-import { persistenceManager } from './persistenceManager';
+import { persistenceManager } from './persistenceManager.ts';
 import { db as clientDb } from './firebase.ts';
 
 export class AdaptiveAgent {
