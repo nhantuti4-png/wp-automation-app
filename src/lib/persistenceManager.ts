@@ -1,6 +1,6 @@
-import { AISettings, WorkflowMemory } from '../types';
-import { memoryService, settingsService } from '../services/api';
-import { DurableStorage as durableStorage } from './browserPersistence';
+import { AISettings, WorkflowMemory } from '../types.ts';
+import { memoryService, settingsService } from '../services/api.ts';
+import { DurableStorage as durableStorage } from './browserPersistence.ts';
 
 // Strategy for server-side persistence (Worker)
 let serverStores: any = null;
